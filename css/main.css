@@ -1,0 +1,28 @@
+html {background: url(../images/bg.jpg) repeat-y 15% 0;}
+body {background: url(../images/bg.jpg) repeat-y 15% 0;}
+#main {padding: 20px 2% 20px 0;}
+
+.nav-list {padding-bottom: 20px}
+.nav-list li {text-align: center;}
+.nav-list .nav-header {font-size: 18px;}
+.sysname {font-size: 32px; color: #08c; padding: 20px; text-align: center;}
+.container-fluid {padding: 0;}
+.nav-tabs {margin-bottom: 0px;}
+.tab-content {border: 1px solid #ddd; border-top: 0px; padding: 20px 10px 10px 10px;}
+.nav-list > li > a, .nav-list .nav-header {text-shadow: 0 2px 0 #fff;}
+/*
+.span2 { box-shadow: 2px 2px 4px #999;}
+*/
+
+.table-block {border: 1px solid #999; border-radius: 5px; background-color: #fff; margin: 10px 0 0;}
+.table {margin-bottom: 0;}
+.table thead th {border-bottom: 1px solid #999;}
+
+.table-block h3 {font-size: 20px; text-align: center; background: #e0e0e3; margin: 0; border-bottom: 1px solid #999; background: -webkit-linear-gradient(#fff, #e0e0e3); border-top-left-radius: 5px; border-top-right-radius: 5px;}
+.table-block h3 {box-shadow: 0 2px 6px #aaa;}
+.table input {margin: 0 3px;}
+.content-block {margin-top: 20px;}
+
+/*
+.module header {box-shadow: 0 2px 6px #AAA; background-image: -webkit-linear-gradient(#FFF, #DDD); border-top-left-radius: 5px; border-top-right-radius: 5px;}
+*/
