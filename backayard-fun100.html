@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <aside id="sidebar" class="span2">
+                    <section>
+                            <h1 class="sysname">后台系统</h1>
+                        <nav>
+                            <ul class="nav nav-list">
+                                <li class="nav-header">Main articles</li>
+                                <li><a href="#">People</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Outsourcing</a></li>
+                                <li><a href="#">Details</a></li>
+                                <li class="nav-header">Content Pages</li>
+                                <li><a href="#">About me</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li class="nav-header">Category Setting</li>
+                                <li class="active"><a href="#">Banner Setting</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                </aside>
+                <div id="main" class="span10">
+                    <section class="section-block">
+
+                        <ul class="breadcrumb">
+                          <li><a href="#">廣告管理</a> <span class="divider">/</span></li>
+                          <li class="active">A區</a></li>
+                        </ul>
+<!--
+                        <div class="content-block form-block">
+                            <form class="form-horizontal">
+                              <fieldset>
+                                <legend>A區上稿</legend>
+                                <div class="control-group">
+                                    <label class="control-label">文本框</label>
+                                    <div class="controls">
+                                        <input type="text" />
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">下拉框</label>
+                                    <div class="controls">
+                                        <select>
+                                            <option></option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div> 
+
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="checkbox">
+                                            <input type="checkbox">複選框1
+                                        </label>
+                                        <label class="checkbox">
+                                            <input type="checkbox">複選框2
+                                        </label>                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="radio">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                          單選項1
+                                        </label>
+                                        <label class="radio">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                          單選項2
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn">儲存</button>
+                              </fieldset>
+                            </form>                            
+                        </div>
+-->
+
+                        <div class="content-block form-block">
+                            <form class="form-horizontal">
+                              <fieldset>
+                                <legend>A區上稿</legend>
+                                <div class="control-group">
+                                    <label class="control-label">文本框</label>
+                                    <div class="controls">
+                                        <input type="text" class="input-xlarge"/>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">大文本框</label>
+                                    <div class="controls">
+                                        <textarea class="input-xxlarge"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">下拉框</label>
+                                    <div class="controls">
+                                        <select class="input-large">
+                                            <option></option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div> 
+
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="checkbox">
+                                            <input type="checkbox">複選框1
+                                        </label>
+                                        <label class="checkbox">
+                                            <input type="checkbox">複選框2
+                                        </label>                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="radio">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                          單選項1
+                                        </label>
+                                        <label class="radio">
+                                          <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                          單選項2
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">上架時間</label>
+                                    <div class="controls">
+                                        <input type="datetime-local">
+                                    </div>
+                                </div>
+
+
+                                <div class="control-group">
+                                    <label class="control-label">上傳圖片</label>
+                                    <div class="controls">
+                                        <a href="javascript:void(0);" class="upFile"><input type="file" />上傳圖片</a>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-block btn-large">儲存</button>
+                              </fieldset>
+                            </form>                            
+                        </div>
+
+
+
+                        <div class="content-block table-block">
+                            <h3>Category Table</h3>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>文字</th>
+                                        <th>鏈接</th>
+                                        <th>別名</th>
+                                        <th>順序</th>
+                                        <th>上稿人</th>
+                                        <th width="60px">操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>
+                                            <input type="image" src="images/icn_edit.png" title="Edit">
+                                            <input type="image" src="images/icn_trash.png" title="Trash">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Technology</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>
+                                            <input type="image" src="images/icn_edit.png" title="Edit">
+                                            <input type="image" src="images/icn_trash.png" title="Trash">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Outsourcing</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>Consulting</td>
+                                        <td>
+                                            <input type="image" src="images/icn_edit.png" title="Edit">
+                                            <input type="image" src="images/icn_trash.png" title="Trash">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="pagination pagination-right">
+                              <ul>
+                                <li class="disabled"><a href="#">Prev</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">Next</a></li>
+                              </ul>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-2.0.0.min.js"></script>
+        <script src="bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
